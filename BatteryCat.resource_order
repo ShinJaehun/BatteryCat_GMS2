@@ -17,6 +17,7 @@
   ],
   "ResourceOrderSettings": [
     {"name":"o_bullet","order":2,"path":"objects/o_bullet/o_bullet.yy",},
+    {"name":"s_bonus_battery_disappear","order":15,"path":"sprites/s_bonus_battery_disappear/s_bonus_battery_disappear.yy",},
     {"name":"s_enemy1_to_left","order":9,"path":"sprites/s_enemy1_to_left/s_enemy1_to_left.yy",},
     {"name":"o_enemy2","order":6,"path":"objects/o_enemy2/o_enemy2.yy",},
     {"name":"o_bonus_battery","order":7,"path":"objects/o_bonus_battery/o_bonus_battery.yy",},

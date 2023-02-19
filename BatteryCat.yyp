@@ -33,6 +33,7 @@
   },
   "resources": [
     {"id":{"name":"o_bullet","path":"objects/o_bullet/o_bullet.yy",},"order":2,},
+    {"id":{"name":"s_bonus_battery_disappear","path":"sprites/s_bonus_battery_disappear/s_bonus_battery_disappear.yy",},"order":15,},
     {"id":{"name":"s_enemy1_to_left","path":"sprites/s_enemy1_to_left/s_enemy1_to_left.yy",},"order":9,},
     {"id":{"name":"o_enemy2","path":"objects/o_enemy2/o_enemy2.yy",},"order":6,},
     {"id":{"name":"o_bonus_battery","path":"objects/o_bonus_battery/o_bonus_battery.yy",},"order":7,},
