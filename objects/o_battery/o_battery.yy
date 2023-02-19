@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "s_battery",
-    "path": "sprites/s_battery/s_battery.yy",
+    "name": "s_battery_3",
+    "path": "sprites/s_battery_3/s_battery_3.yy",
   },
   "spriteMaskId": null,
   "visible": true,

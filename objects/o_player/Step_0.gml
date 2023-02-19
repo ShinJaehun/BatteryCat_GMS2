@@ -6,6 +6,11 @@ vspd = (keyboard_check(ord("S")) - keyboard_check(ord("W"))) * spd
 x += hspd;
 y += vspd;
 
+if (x - sprite_width / 2 < 0) x = sprite_width / 2
+if (x + sprite_width / 2 > room_width) x = room_width - sprite_width / 2
+if (y - sprite_height / 2 < 0) y = sprite_height / 2
+if (y + sprite_height / 2 > room_height) y = room_height - sprite_height / 2
+
 firedeplayed = firedeplayed - 1;
 
 o_battery.x = x;
