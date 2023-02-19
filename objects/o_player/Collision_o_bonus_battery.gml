@@ -34,5 +34,6 @@ switch (life) {
 }	
 
 with (other) {
+	audio_play_sound(snd_bonus, 10, false);
 	instance_destroy();
 }
