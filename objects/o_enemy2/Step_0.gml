@@ -5,21 +5,16 @@
 direction = point_direction(x, y, o_player.x, o_player.y);
 
 if (direction < 90 || direction > 270){ //facing right
-    sprite_index = s_enemy_to_right;
+    sprite_index = s_enemy2_to_right;
 } else {
-    sprite_index = s_enemy_to_left;
+    sprite_index = s_enemy2_to_left;
 }
 
 if (hp <= 0) {
+	
 	audio_play_sound(snd_ouch, 10, false);
 	speed=0;
-	
-	if (direction < 90 || direction > 270){
-		sprite_index = s_enemy_hit_right;
 
-	} else {
-	    sprite_index = s_enemy_hit_left;
-	}
 
 	/*
 	// 생각대로 동작하지 않음, image_index, image_number, image_speed에 대해 좀 더 알아봐...
@@ -31,6 +26,11 @@ if (hp <= 0) {
 		instance_destroy()	
 	}
 	*/
+	
+	instance_create_depth(x, y, 1, o_bonus_battery)
+	
+	global.point += 3;
+	show_debug_message("point : {0}", global.point);
 	
 	instance_destroy();
 }	
